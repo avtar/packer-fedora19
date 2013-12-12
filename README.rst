@@ -18,13 +18,13 @@ After cloning this repository you can start the build process using this command
 
   $ packer build -only=virtualbox fedora19-x86_64.json
 
-This process can take a while since it involves downloading a Fedora 19 DVD, an automated installation, and some provisioning procedures. A resulting ``fedora19-x86_64.box`` file will be created. You can add it using vagrant: ::
+This process can take a while since it involves downloading a Fedora 19 DVD, an automated installation, and some provisioning procedures. A resulting ``idi-fedora19-x86_64.box`` file will be created. You can add it using vagrant: ::
 
-  $ vagrant box add 'fedora19-x86_64' 'fedora19-x86_64.box'
+  $ vagrant box add 'idi-fedora19-x86_64' 'idi-fedora19-x86_64.box'
 
 A new Vagrant project can then be started using this new box: ::
 
-  $ vagrant init 'fedora19-x86_64'
+  $ vagrant init 'idi-fedora19-x86_64'
 
 Credits
 =======

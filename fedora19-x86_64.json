@@ -62,7 +62,7 @@
   ],
   "post-processors": [
     {
-      "output": "fedora19-x86_64.box",
+      "output": "idi-fedora19-x86_64.box",
       "type": "vagrant"
     }
   ]
