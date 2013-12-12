@@ -32,6 +32,8 @@ This Vagrant plugin will help keep your Guest Additions updated: ::
 
   $ vagrant plugin install vagrant-vbguest
 
+Upon issuing the ``vagrant up`` command you should be presented with a GNOME 3 session. The default username/password is ``vagrant/vagrant`` and this account will have full password-less sudo access.
+
 Credits
 =======
 
