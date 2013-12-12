@@ -1,8 +1,8 @@
 # Log in automatically as the vagrant user
 sed -i '/\[daemon\]/ a\
 AutomaticLoginEnable=true\
-AutomaticLogin=if\
+AutomaticLogin=vagrant\
 TimedLoginEnable=true\
-TimedLogin=if\
+TimedLogin=vagrant\
 TimedLoginDelay=0
 ' /etc/gdm/custom.conf
