@@ -9,7 +9,9 @@ Requirements
 You will need the following software:
 
 * Packer 0.4.1
+* VirtualBox 4.3.4
 * Vagrant 1.4.0
+* vagrant-vbguest plugin
 
 Usage
 =====
@@ -25,6 +27,10 @@ This process can take a while since it involves downloading a Fedora 19 DVD, an 
 A new Vagrant project can then be started using this new box: ::
 
   $ vagrant init 'idi-fedora19-x86_64'
+
+This Vagrant plugin will help keep your Guest Additions updated: ::
+
+  $ vagrant plugin install vagrant-vbguest
 
 Credits
 =======
