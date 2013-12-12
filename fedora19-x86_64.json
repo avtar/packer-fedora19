@@ -8,6 +8,7 @@
         "scripts/virtualbox.sh",
         "scripts/cleanup.sh",
         "scripts/disable_initial_setup.sh",
+        "scripts/gdm_autologin.sh",
         "scripts/zerodisk.sh"
       ],
       "override": {
